@@ -1,0 +1,1356 @@
+{
+  "format": "yolo-json-v1",
+  "description": "Red-box annotations detected from PNG images and mapped back to corresponding JFIF original image coordinates.",
+  "classes": [
+    {
+      "id": 0,
+      "name": "bird_nest"
+    }
+  ],
+  "coordinate_system": {
+    "bbox_xyxy": "absolute pixels on the JFIF original: [x_min, y_min, x_max, y_max]",
+    "bbox_yolo": "YOLO normalized on the JFIF original: [x_center, y_center, width, height]"
+  },
+  "images": [
+    {
+      "file_name": "鸟巢样本标注1/东莞局_110kV_北源线_N12_GNLS04通道-大号侧-2026-04-14-07-26-18.jfif",
+      "source_png": "鸟巢样本标注1/东莞局_110kV_北源线_N12_GNLS04通道-大号侧-2026-04-14-07-26-18.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            786.06,
+            267.24,
+            809.09,
+            284.2
+          ],
+          "bbox_yolo": [
+            0.41540144,
+            0.25529573,
+            0.01199509,
+            0.01570858
+          ],
+          "bbox_png_xyxy": [
+            1295,
+            437,
+            1333,
+            465
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.60606256,
+          8.16e-06,
+          1.20091693
+        ],
+        [
+          7.03e-06,
+          0.60589328,
+          2.45229555
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3001,
+        "kp_jfif": 3000,
+        "good_matches": 2025,
+        "inliers": 1964,
+        "inlier_ratio": 0.9698765432098766,
+        "rms_reprojection_error_px": 0.32282260060310364,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注1/东莞局_110kV_北源线_N23_SX608901-大号侧-2026-04-14-07-08-18.jfif",
+      "source_png": "鸟巢样本标注1/东莞局_110kV_北源线_N23_SX608901-大号侧-2026-04-14-07-08-18.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1224.23,
+            146.69,
+            1253.32,
+            166.7
+          ],
+          "bbox_yolo": [
+            0.64519564,
+            0.14508837,
+            0.01515147,
+            0.01852191
+          ],
+          "bbox_png_xyxy": [
+            2016,
+            239,
+            2064,
+            272
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1344.83,
+            150.94,
+            1367.26,
+            169.12
+          ],
+          "bbox_yolo": [
+            0.70627445,
+            0.14817532,
+            0.01167927,
+            0.01683809
+          ],
+          "bbox_png_xyxy": [
+            2215,
+            246,
+            2252,
+            276
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.606053,
+          6.78e-06,
+          2.42582558
+        ],
+        [
+          -1.4e-07,
+          0.6061713,
+          1.81893299
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3001,
+        "kp_jfif": 3000,
+        "good_matches": 1625,
+        "inliers": 1618,
+        "inlier_ratio": 0.9956923076923077,
+        "rms_reprojection_error_px": 0.27515989542007446,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注1/东莞局_110kV_北源线_N25_GN7F82-小号侧-2026-04-16-13-25-09.jfif",
+      "source_png": "鸟巢样本标注1/东莞局_110kV_北源线_N25_GN7F82-小号侧-2026-04-16-13-25-09.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2303.78,
+            422.39,
+            2333.14,
+            441.94
+          ],
+          "bbox_yolo": [
+            0.60376584,
+            0.20007742,
+            0.00764446,
+            0.00904995
+          ],
+          "bbox_png_xyxy": [
+            2118,
+            364,
+            2145,
+            382
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2173.32,
+            427.82,
+            2208.11,
+            454.97
+          ],
+          "bbox_yolo": [
+            0.5704985,
+            0.20435082,
+            0.0090601,
+            0.01256937
+          ],
+          "bbox_png_xyxy": [
+            1998,
+            369,
+            2030,
+            394
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.08720441,
+          -9.92e-06,
+          1.08801442
+        ],
+        [
+          3.19e-06,
+          1.08599004,
+          27.08612993
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1834,
+        "inliers": 1783,
+        "inlier_ratio": 0.9721919302071974,
+        "rms_reprojection_error_px": 0.5569009780883789,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注1/东莞局_110kV_北金甲线_N13_GN7268-大号侧-2026-04-14-07-13-13.jfif",
+      "source_png": "鸟巢样本标注1/东莞局_110kV_北金甲线_N13_GN7268-大号侧-2026-04-14-07-13-13.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1039.91,
+            205.92,
+            1073.91,
+            232.91
+          ],
+          "bbox_yolo": [
+            0.55047509,
+            0.20316281,
+            0.01770776,
+            0.02499195
+          ],
+          "bbox_png_xyxy": [
+            893,
+            196,
+            927,
+            223
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.99994827,
+          2.648e-05,
+          146.95370275
+        ],
+        [
+          -1e-07,
+          0.99967786,
+          9.98341204
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1556,
+        "inliers": 1480,
+        "inlier_ratio": 0.9511568123393316,
+        "rms_reprojection_error_px": 0.23715917766094208,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注1/东莞局_110kV_白油线_N24_GN8715-大号侧-2026-04-14-13-41-17.jfif",
+      "source_png": "鸟巢样本标注1/东莞局_110kV_白油线_N24_GN8715-大号侧-2026-04-14-13-41-17.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1319.07,
+            265.55,
+            1419.1,
+            337.41
+          ],
+          "bbox_yolo": [
+            0.35653248,
+            0.13957488,
+            0.02604904,
+            0.03326578
+          ],
+          "bbox_png_xyxy": [
+            807,
+            152,
+            871,
+            198
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2203.66,
+            838.82,
+            2283.37,
+            912.23
+          ],
+          "bbox_yolo": [
+            0.58424759,
+            0.40533576,
+            0.02075793,
+            0.03398892
+          ],
+          "bbox_png_xyxy": [
+            1373,
+            519,
+            1424,
+            566
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.56290441,
+          -5.18e-05,
+          57.81707043
+        ],
+        [
+          -7.89e-06,
+          1.56203503,
+          28.13221427
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1974,
+        "inliers": 1832,
+        "inlier_ratio": 0.92806484295846,
+        "rms_reprojection_error_px": 0.5635755658149719,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_古布甲清线_N29_AH8146-大号侧-2026-04-14-13-15-24.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_古布甲清线_N29_AH8146-大号侧-2026-04-14-13-15-24.png",
+      "image_width": 2560,
+      "image_height": 1440,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1373.82,
+            513.81,
+            1409.23,
+            550.07
+          ],
+          "bbox_yolo": [
+            0.54356334,
+            0.36940119,
+            0.01383119,
+            0.02517832
+          ],
+          "bbox_png_xyxy": [
+            1551,
+            580,
+            1591,
+            621
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.88518058,
+          1.471e-05,
+          0.89467049
+        ],
+        [
+          1.092e-05,
+          0.88430132,
+          0.8975592
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3001,
+        "good_matches": 2178,
+        "inliers": 2114,
+        "inlier_ratio": 0.970615243342516,
+        "rms_reprojection_error_px": 0.4411005675792694,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_古布甲清线_N32_GN7A94-小号侧-2026-04-09-10-27-20.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_古布甲清线_N32_GN7A94-小号侧-2026-04-09-10-27-20.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1009.19,
+            530.04,
+            1035.37,
+            555.47
+          ],
+          "bbox_yolo": [
+            0.5324382,
+            0.50254757,
+            0.01363668,
+            0.0235464
+          ],
+          "bbox_png_xyxy": [
+            1265,
+            666,
+            1298,
+            698
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.79339923,
+          -1.19e-05,
+          5.54839979
+        ],
+        [
+          1.164e-05,
+          0.79467909,
+          0.76534776
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1916,
+        "inliers": 1900,
+        "inlier_ratio": 0.9916492693110647,
+        "rms_reprojection_error_px": 0.22107550501823425,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_古谢丙线_N15_SLSE31通道1-大号侧-2026-04-14-13-25-16.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_古谢丙线_N15_SLSE31通道1-大号侧-2026-04-14-13-25-16.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2156.83,
+            608.05,
+            2198.19,
+            645.71
+          ],
+          "bbox_yolo": [
+            0.56706085,
+            0.29022297,
+            0.01077143,
+            0.01743805
+          ],
+          "bbox_png_xyxy": [
+            1928,
+            530,
+            1965,
+            564
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2147.17,
+            789.93,
+            2188.53,
+            826.5
+          ],
+          "bbox_yolo": [
+            0.56454353,
+            0.3741733,
+            0.01077029,
+            0.01692768
+          ],
+          "bbox_png_xyxy": [
+            1920,
+            695,
+            1957,
+            728
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.1136707,
+          -0.00460326,
+          12.27164762
+        ],
+        [
+          0.00484269,
+          1.10256186,
+          14.35397855
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 1966,
+        "kp_jfif": 2790,
+        "good_matches": 453,
+        "inliers": 295,
+        "inlier_ratio": 0.6512141280353201,
+        "rms_reprojection_error_px": 3.0438015460968018,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_葵布清线_N10_GNA992-小号侧-2026-04-14-13-05-12.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_葵布清线_N10_GNA992-小号侧-2026-04-14-13-05-12.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1117.6,
+            384.26,
+            1132.0,
+            418.68
+          ],
+          "bbox_yolo": [
+            0.58583234,
+            0.37173353,
+            0.00750046,
+            0.03186727
+          ],
+          "bbox_png_xyxy": [
+            1393,
+            478,
+            1411,
+            521
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1140.0,
+            384.26,
+            1161.6,
+            409.88
+          ],
+          "bbox_yolo": [
+            0.5993742,
+            0.36765705,
+            0.01125043,
+            0.02371538
+          ],
+          "bbox_png_xyxy": [
+            1421,
+            478,
+            1448,
+            510
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1068.8,
+            607.57,
+            1104.0,
+            629.18
+          ],
+          "bbox_yolo": [
+            0.56583408,
+            0.57257057,
+            0.01833388,
+            0.02001015
+          ],
+          "bbox_png_xyxy": [
+            1332,
+            757,
+            1376,
+            784
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.80001309,
+          1.443e-05,
+          3.17257078
+        ],
+        [
+          -1.572e-05,
+          0.80038088,
+          1.70401636
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3001,
+        "kp_jfif": 2880,
+        "good_matches": 1910,
+        "inliers": 1865,
+        "inlier_ratio": 0.9764397905759162,
+        "rms_reprojection_error_px": 0.5595239996910095,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_葵布线_N31_GN7A23-小号侧-2026-04-14-13-05-13.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_葵布线_N31_GN7A23-小号侧-2026-04-14-13-05-13.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            969.99,
+            270.87,
+            991.99,
+            291.55
+          ],
+          "bbox_yolo": [
+            0.51093303,
+            0.26037716,
+            0.01145837,
+            0.01914927
+          ],
+          "bbox_png_xyxy": [
+            1448,
+            404,
+            1481,
+            435
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            973.99,
+            507.7,
+            990.65,
+            527.05
+          ],
+          "bbox_yolo": [
+            0.51162446,
+            0.47904802,
+            0.00868066,
+            0.01791376
+          ],
+          "bbox_png_xyxy": [
+            1454,
+            759,
+            1479,
+            788
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.66665488,
+          -1.631e-05,
+          4.68218071
+        ],
+        [
+          3.28e-06,
+          0.66713146,
+          1.34088462
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1939,
+        "inliers": 1812,
+        "inlier_ratio": 0.9345023207839093,
+        "rms_reprojection_error_px": 0.42949870228767395,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_角科线_N17_SLS370-大号侧-2026-04-16-09-15-25.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_角科线_N17_SLS370-大号侧-2026-04-16-09-15-25.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1252.94,
+            664.7,
+            1274.73,
+            691.74
+          ],
+          "bbox_yolo": [
+            0.6582475,
+            0.62798422,
+            0.01134669,
+            0.02503594
+          ],
+          "bbox_png_xyxy": [
+            1656,
+            875,
+            1685,
+            911
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.75121025,
+          -1.484e-05,
+          8.95168131
+        ],
+        [
+          -2.042e-05,
+          0.75106183,
+          7.55885352
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 1394,
+        "kp_jfif": 1585,
+        "good_matches": 997,
+        "inliers": 919,
+        "inlier_ratio": 0.921765295887663,
+        "rms_reprojection_error_px": 0.3689054846763611,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注2/东莞局_110kV_角科线_N57_NK1G79通道01-侧面-2026-04-16-09-05-20.jfif",
+      "source_png": "鸟巢样本标注2/东莞局_110kV_角科线_N57_NK1G79通道01-侧面-2026-04-16-09-05-20.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1768.85,
+            605.62,
+            1842.19,
+            693.41
+          ],
+          "bbox_yolo": [
+            0.47018776,
+            0.30070093,
+            0.01909688,
+            0.04064159
+          ],
+          "bbox_png_xyxy": [
+            1588,
+            545,
+            1654,
+            624
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.11108537,
+          4.75e-06,
+          4.44873233
+        ],
+        [
+          8.58e-06,
+          1.11120551,
+          0.00051604
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 2915,
+        "good_matches": 2069,
+        "inliers": 1942,
+        "inlier_ratio": 0.9386176897051716,
+        "rms_reprojection_error_px": 0.5392109751701355,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注3/东莞局_110kV_七桥线_N24_NK1G43通道01-大号侧-2026-04-07-15-13-15.jfif",
+      "source_png": "鸟巢样本标注3/东莞局_110kV_七桥线_N24_NK1G43通道01-大号侧-2026-04-07-15-13-15.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2009.97,
+            82.22,
+            2039.97,
+            105.55
+          ],
+          "bbox_yolo": [
+            0.52733598,
+            0.04346433,
+            0.0078124,
+            0.0108009
+          ],
+          "bbox_png_xyxy": [
+            1803,
+            71,
+            1830,
+            92
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.11109758,
+          -2.68e-06,
+          6.66161919
+        ],
+        [
+          2.051e-05,
+          1.11092348,
+          3.30543116
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 2713,
+        "kp_jfif": 2571,
+        "good_matches": 1812,
+        "inliers": 1740,
+        "inlier_ratio": 0.9602649006622517,
+        "rms_reprojection_error_px": 0.5080188512802124,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注3/东莞局_110kV_万道线_N2_SLS136-小号侧-2026-04-14-07-18-37.jfif",
+      "source_png": "鸟巢样本标注3/东莞局_110kV_万道线_N2_SLS136-小号侧-2026-04-14-07-18-37.png",
+      "image_width": 2560,
+      "image_height": 1440,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            781.62,
+            274.35,
+            800.82,
+            289.55
+          ],
+          "bbox_yolo": [
+            0.30907044,
+            0.19579966,
+            0.00750022,
+            0.01055412
+          ],
+          "bbox_png_xyxy": [
+            974,
+            341,
+            998,
+            360
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.80000704,
+          -1.969e-05,
+          2.42026369
+        ],
+        [
+          1.91e-06,
+          0.79988848,
+          1.58872806
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 2269,
+        "inliers": 2237,
+        "inlier_ratio": 0.9858968708682239,
+        "rms_reprojection_error_px": 0.3660285472869873,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注3/东莞局_110kV_万阁线_N9_SLS077-小号侧-2026-04-14-07-26-07.jfif",
+      "source_png": "鸟巢样本标注3/东莞局_110kV_万阁线_N9_SLS077-小号侧-2026-04-14-07-26-07.png",
+      "image_width": 2560,
+      "image_height": 1440,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2031.21,
+            618.76,
+            2056.01,
+            639.57
+          ],
+          "bbox_yolo": [
+            0.79828429,
+            0.43692006,
+            0.00968771,
+            0.01445308
+          ],
+          "bbox_png_xyxy": [
+            2536,
+            771,
+            2567,
+            797
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.80000987,
+          4.54e-06,
+          2.37903914
+        ],
+        [
+          -3.46e-06,
+          0.80047658,
+          1.60011237
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 2271,
+        "inliers": 2125,
+        "inlier_ratio": 0.9357111404667547,
+        "rms_reprojection_error_px": 0.35340335965156555,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注3/东莞局_110kV_下企乙上线_N9_ZY8447-大号侧-2026-04-14-09-28-13.jfif",
+      "source_png": "鸟巢样本标注3/东莞局_110kV_下企乙上线_N9_ZY8447-大号侧-2026-04-14-09-28-13.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2182.85,
+            431.27,
+            2215.41,
+            454.52
+          ],
+          "bbox_yolo": [
+            0.57268931,
+            0.20504284,
+            0.00847994,
+            0.01076458
+          ],
+          "bbox_png_xyxy": [
+            1877,
+            367,
+            1905,
+            387
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            2004.92,
+            444.06,
+            2045.62,
+            469.63
+          ],
+          "bbox_yolo": [
+            0.52741359,
+            0.21150163,
+            0.01059984,
+            0.01184106
+          ],
+          "bbox_png_xyxy": [
+            1724,
+            378,
+            1759,
+            400
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.16293309,
+          -3.63e-05,
+          0.03426441
+        ],
+        [
+          -4.5e-07,
+          1.16257606,
+          4.60219947
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1893,
+        "inliers": 1834,
+        "inlier_ratio": 0.9688325409403064,
+        "rms_reprojection_error_px": 0.5648180246353149,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注3/东莞局_110kV_古布甲清线_N12_WS1808-大号侧-2026-04-14-13-05-14.jfif",
+      "source_png": "鸟巢样本标注3/东莞局_110kV_古布甲清线_N12_WS1808-大号侧-2026-04-14-13-05-14.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            897.49,
+            249.85,
+            990.92,
+            312.31
+          ],
+          "bbox_yolo": [
+            0.49177478,
+            0.2602568,
+            0.04866346,
+            0.05783639
+          ],
+          "bbox_png_xyxy": [
+            1362,
+            382,
+            1504,
+            477
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            906.04,
+            468.79,
+            973.82,
+            501.01
+          ],
+          "bbox_yolo": [
+            0.48954659,
+            0.44898403,
+            0.03529809,
+            0.02983153
+          ],
+          "bbox_png_xyxy": [
+            1375,
+            715,
+            1478,
+            764
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            898.8,
+            787.02,
+            960.65,
+            821.87
+          ],
+          "bbox_yolo": [
+            0.48423374,
+            0.74485968,
+            0.03221382,
+            0.03226663
+          ],
+          "bbox_png_xyxy": [
+            1364,
+            1199,
+            1458,
+            1252
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.65798204,
+          -4.04e-06,
+          1.32103387
+        ],
+        [
+          -4.64e-06,
+          0.65750127,
+          -1.31281581
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1831,
+        "inliers": 1772,
+        "inlier_ratio": 0.9677771709448388,
+        "rms_reprojection_error_px": 0.2695188820362091,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注4/东莞局_110kV_信怀线_N8_GN7M90-大号侧-2026-04-14-13-35-10.jfif",
+      "source_png": "鸟巢样本标注4/东莞局_110kV_信怀线_N8_GN7M90-大号侧-2026-04-14-13-35-10.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1675.58,
+            559.63,
+            1705.58,
+            589.61
+          ],
+          "bbox_yolo": [
+            0.44025529,
+            0.26602927,
+            0.00781263,
+            0.01388126
+          ],
+          "bbox_png_xyxy": [
+            1506,
+            503,
+            1533,
+            530
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.11109133,
+          -3.924e-05,
+          2.29719332
+        ],
+        [
+          -2.432e-05,
+          1.11047589,
+          1.09934526
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1980,
+        "inliers": 1864,
+        "inlier_ratio": 0.9414141414141414,
+        "rms_reprojection_error_px": 0.5853804349899292,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注4/东莞局_110kV_信美线_N21_WS1735-小号侧-2026-04-14-13-26-15.jfif",
+      "source_png": "鸟巢样本标注4/东莞局_110kV_信美线_N21_WS1735-小号侧-2026-04-14-13-26-15.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            877.99,
+            430.0,
+            897.32,
+            445.33
+          ],
+          "bbox_yolo": [
+            0.46232173,
+            0.4052435,
+            0.01006947,
+            0.01419584
+          ],
+          "bbox_png_xyxy": [
+            1313,
+            643,
+            1342,
+            666
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            876.66,
+            534.65,
+            894.66,
+            552.65
+          ],
+          "bbox_yolo": [
+            0.46128167,
+            0.50337635,
+            0.0093751,
+            0.01666458
+          ],
+          "bbox_png_xyxy": [
+            1311,
+            800,
+            1338,
+            827
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.66665405,
+          1.916e-05,
+          2.66194084
+        ],
+        [
+          2.084e-05,
+          0.66656304,
+          1.36982517
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 2557,
+        "kp_jfif": 2400,
+        "good_matches": 1714,
+        "inliers": 1611,
+        "inlier_ratio": 0.9399066511085181,
+        "rms_reprojection_error_px": 0.46551066637039185,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注4/东莞局_110kV_裕朗线_N28_GNPT69通道1-大号侧-2026-04-14-13-22-14.jfif",
+      "source_png": "鸟巢样本标注4/东莞局_110kV_裕朗线_N28_GNPT69通道1-大号侧-2026-04-14-13-22-14.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            1584.42,
+            621.45,
+            1623.31,
+            675.92
+          ],
+          "bbox_yolo": [
+            0.4176733,
+            0.30031696,
+            0.01012739,
+            0.02521956
+          ],
+          "bbox_png_xyxy": [
+            1422,
+            558,
+            1457,
+            607
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          1.11110504,
+          -9.12e-06,
+          4.43509277
+        ],
+        [
+          1.062e-05,
+          1.11171088,
+          1.09780851
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affine2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 1995,
+        "inliers": 1919,
+        "inlier_ratio": 0.9619047619047619,
+        "rms_reprojection_error_px": 0.3951256573200226,
+        "feature_match_max_dim": 1200
+      }
+    },
+    {
+      "file_name": "鸟巢样本标注4/东莞局_220kV_东角丙线_N15_GN7M47-大号侧-2026-04-24-07-18-05.jfif",
+      "source_png": "鸟巢样本标注4/东莞局_220kV_东角丙线_N15_GN7M47-大号侧-2026-04-24-07-18-05.png",
+      "image_width": 3840,
+      "image_height": 2160,
+      "annotations": [
+        {
+          "class_id": 0,
+          "class_name": "bird_nest",
+          "bbox_xyxy": [
+            3482.83,
+            1663.6,
+            3483.83,
+            1664.6
+          ],
+          "bbox_yolo": [
+            0.90711619,
+            0.77041496,
+            0.00026042,
+            0.00046296
+          ],
+          "bbox_png_xyxy": [
+            1884,
+            512,
+            1906,
+            535
+          ]
+        }
+      ],
+      "transform_png_to_jfif_affine": [
+        [
+          0.0,
+          -0.0,
+          3482.82617188
+        ],
+        [
+          0.0,
+          0.0,
+          1663.59631348
+        ]
+      ],
+      "alignment_metrics": {
+        "model": "affinePartial2D",
+        "kp_png": 3000,
+        "kp_jfif": 3000,
+        "good_matches": 103,
+        "inliers": 25,
+        "inlier_ratio": 0.24271844660194175,
+        "rms_reprojection_error_px": 0.0,
+        "feature_match_max_dim": 1200
+      }
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "image_count": 21,
+    "box_count": 32,
+    "error_count": 0
+  }
+}

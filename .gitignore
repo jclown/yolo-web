@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Uploads & data (keep directory structure, ignore contents)
+data/uploads/*
+data/datasets/*
+data/models/*
+data/augmented/*
+!data/uploads/.gitkeep
+!data/datasets/.gitkeep
+!data/models/.gitkeep
+!data/augmented/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+
+# Vite
+.vite/
+
+# Test coverage
+coverage/
+.trea
